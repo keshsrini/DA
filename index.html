@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Click Me</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #f0f4f8;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    a.btn {
+      text-decoration: none;
+      background: #4f46e5;
+      color: white;
+      padding: 16px 36px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: background 0.2s, transform 0.1s;
+      box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+    }
+
+    a.btn:hover {
+      background: #4338ca;
+      transform: translateY(-2px);
+    }
+
+    a.btn:active {
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <h1>Ready to open the document?</h1>
+  <a class="btn" href="document.pdf" target="_blank">Click Me</a>
+</body>
+</html>
